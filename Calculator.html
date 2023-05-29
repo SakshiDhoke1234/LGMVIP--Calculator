@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="Calculator.css">
+</head>
+
+<body>
+    <div class="container">
+        <table>
+            <tr>
+                <td colspan="3" style="background-color: white; border-radius: 5px;"> <input class="display" type="text"
+                        id="answer"></td>
+                <td style="background-color: rgb(236, 19, 109) ;" onclick="clearScreen()" id="btn1"> C </td>
+            </tr>
+            <tr>
+                <td onclick="display('1')" id="btn"> 1</td>
+                <td onclick="display('2')" id="btn"> 2 </td>
+                <td onclick="display('3')" id="btn"> 3 </td>
+                <td onclick="display('+')" id="btn"> + </td>
+
+            </tr>
+            <tr>
+                <td onclick="display('4')" id="btn"> 4 </td>
+                <td onclick="display('5')" id="btn"> 5 </td>
+                <td onclick="display('6')" id="btn"> 6 </td>
+                <td onclick="display('-')" id="btn"> - </td>
+
+            </tr>
+            <tr>
+                <td onclick="display('7')" id="btn"> 7 </td>
+                <td onclick="display('8')" id="btn"> 8 </td>
+                <td onclick="display('9')" id="btn"> 9 </td>
+                <td onclick="display('/')" id="btn"> / </td>
+
+            </tr>
+            <tr>
+                <td onclick="back('<')" id="btn"> < </td>
+                <td onclick="display('0')" id="btn"> 0 </td>
+                <td style="background-color: rgb(236, 19, 109);" onclick="calculate()" id="btn1"> = </td>
+                <td onclick="display('*')" id="btn"> * </td>
+
+            </tr>
+        </table>
+    </div>
+    <script src="js/Calculator.js"></script>
+</body>
+
+</html>

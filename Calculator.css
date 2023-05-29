@@ -1,0 +1,37 @@
+.container {
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin-top: 50px;
+    margin-left: 550px;
+}
+
+table td {
+    border: 2px solid black;
+    border-radius: 10%;
+    padding: 10px 15px 10px 15px;
+    background-color: rgb(106, 4, 150);
+}
+
+table {
+    border-spacing: 10px;
+    background-color: black;
+}
+
+#btn {
+    background-color: rgb(106, 4, 150);
+    border: 1px solid rgb(106, 4, 150);
+    color: white;
+    text-align: center;
+}
+
+#btn1 {
+    background-color: rgb(236, 19, 109);
+    border: 1px solid rgb(236, 19, 109);
+    color: white;
+    text-align: center;
+}
+
+.display {
+    border: 1px solid white;
+}
